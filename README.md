@@ -38,7 +38,7 @@ We extended our gratitude to **Priv.-Doz. Dr. Michael Teut** for his invaluable 
 1. **Clone this repository:**
 
    ```bash
-   git clone https://github.com/sschepanski/kneipp-project.git
+   git clone https://github.com/sschepanski/MindSapceOne.git
    ```
 2. **Set up your R environment:**
    Ensure that R is installed and configured. All required packages are integrated directly in the respective R scripts. When running a script, any missing packages will be prompted for installation.
@@ -47,7 +47,7 @@ We extended our gratitude to **Priv.-Doz. Dr. Michael Teut** for his invaluable 
 
 ## Contributions
 
-This project analysis was conducted by Dr. Steven Schepanski and represents a comprehensive study into the effects of the Kneipp concept on kindergarten children's health outcomes. It is part of the manuscript by Blakeslee et al.
+This project analysis was conducted by **Dr. Steven Schepanski** and represents a comprehensive study into the effects of hypnotherapy and aromatherapy on relaxation outcomes. It is part of the manuscript by Bogdanski et al.
 
 ## License
 
