@@ -1,28 +1,37 @@
-# Kneipp Concept: Impact on Kindergarten Children's Health
+# Exploring the Effects of Hypnotherapy and Aromatherapy via MindspaceOne
 
 ## Introduction
 
-This project explores the impact of the Kneipp concept on the health of kindergarten children, specifically focusing on infection-related absenteeism over a 12-month period. The Kneipp concept, rooted in European tradition, emphasizes a holistic approach to health and wellness through five key elements: cold water applications, exercise, nutrition, herbs, and life balance. While widely practiced in some kindergartens, the specific health benefits for children have remained largely unexplored until now.
+The **MindspaceOne** project investigates the effects of combining hypnotherapy and aromatherapy, delivered via a smartphone-based platform, on individuals' ability to achieve targeted states of relaxation or concentration. As modern life becomes increasingly stressful, particularly among younger individuals, there is a growing need for accessible interventions to support mental health and well-being. This project evaluates whether pairing hypnotherapy with aromatherapy through classical conditioning enhances the effectiveness of these interventions.
+
+In this controlled, randomized experimental pilot study, participants are assigned to one of four groups: (I) Hypnotherapy + Aromatherapy, (II) Hypnotherapy alone, (III) Aromatherapy alone, or (IV) a control group. Over a 4-week period, participants engage with the assigned treatment daily, followed by a 1-week test phase to assess conditioning effects in selected groups.
 
 ## Objective
 
-The primary objective of this project is to assess whether implementing a child-friendly Kneipp concept can reduce infection-related absenteeism and improve resilience among kindergarten children. The project involves comprehensive data analysis to explore and model the relationship between the Kneipp intervention and health outcomes over the study period.
+The primary objective is to assess whether daily hypnotherapy sessions, with or without aromatherapy, improve participants' relaxation and concentration as measured by the **Multidimensional Mood Questionnaire (MDBF)** subscales. Secondary objectives include evaluating whether hypnotherapy effects can be conditioned to aromatherapy and exploring influences of age, gender, and stress levels.
+
+## Hypotheses
+
+### Primary Hypothesis (H1):
+- Hypnotherapy, delivered via a smartphone-based platform, enhances relaxation and concentration, as indicated by improvements on the MDBF subscales from baseline to the end of the 4-week intervention.
+
+### Secondary Hypotheses:
+1. Aromatherapy combined with hypnotherapy enhances the conditioning effect, allowing aromatherapy alone to trigger relaxation or concentration effects.
+2. Exploratory analysis will examine effects on perceived stress (**PSS**) and well-being (**WHO-5**), as well as moderating influences of age, gender, and socioeconomic status.
 
 ## Project Structure
 
 - **`data/`**: Contains the dataset used in the analysis.
 - **`scr/`**: R scripts for data exploration, preprocessing, modeling, and assumption testing.
-- **`graphs/`**: Contains the plots and visual outputs generated during the analysis.
+- **`graphs/`**: Contains visual outputs generated during the analysis.
 
 ## Scripts
 
-1. **KITA_children.ipynb:** This script focuses on analyzing the kindergarten-reported sick days of children. The main objective is to predict the number of sick days based on the groups (e.g., Kneipp intervention group vs. control group). Various models are applied to examine the impact of the intervention on children's health, specifically looking at infection-related absenteeism.
-2. **INT.ipynb:** This script provides a descriptive analysis of the Kneipp interventions conducted across four kindergartens over the course of one year. The analysis explores the frequency and types of interventions applied in each kindergarten, examining temporal trends and variations in program implementation. Visualizations such as heatmaps help illustrate these patterns.
-3. **SOSCI.ipynb:** This script analyzes parent-reported data, including information about socioeconomic background, family life, and the basic characteristics of the family and child(ren). Additionally, it covers the Common Cold Questionnaire (CCQ) responses to assess the children's health outcomes. The goal is to explore the relationship between family background and children's health, and to provide insights into factors that may influence their well-being.
+- **Analysis.ipynb**: This script conducts the core statistical analyses, including data preprocessing, hypothesis testing, and visualization of results.
 
 ## Acknowledgements
 
-This project is based on real-world data from kindergartens practicing the Kneipp concept. The data has been anonymized to protect participant privacy.
+We extended our gratitude to **Priv.-Doz. Dr. Michael Teut** for his invaluable contribution to the execution of this study. We also express gratitude to the entire research group of **[Prof. Dr. med. Seifert](https://kinderonkologie.charite.de/forschung/ag_seifert/team/)** and all participants for their invalubale contributions to this study as well as thanks to the funding agencies. Statistical analysis was conducted by **Dr. Steven Schepanski**, who also oversaw this notebook.
 
 ## Getting Started
 
