@@ -31,7 +31,7 @@ The primary objective is to assess whether daily hypnotherapy sessions, with or 
 
 ## Acknowledgements
 
-We extended our gratitude to **Priv.-Doz. Dr. Michael Teut** for his invaluable contribution to the execution of this study. We also express gratitude to the entire research group of **[Prof. Dr. med. Seifert](https://kinderonkologie.charite.de/forschung/ag_seifert/team/)** and all participants for their invalubale contributions to this study as well as thanks to the funding agencies. Statistical analysis was conducted by **Dr. Steven Schepanski**, who also oversaw this notebook.
+We extended our gratitude to all participants for their invalubale contributions to this study. Statistical analysis was conducted by **Dr. Steven Schepanski**, who also oversaw this notebook. This project was published here [XXXX](LINK).
 
 ## Getting Started
 
