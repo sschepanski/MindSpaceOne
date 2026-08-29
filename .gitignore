@@ -1,92 +1,112 @@
-# R-related ignored files
+# ------------------------------------------------------------
+# R / RStudio
+# ------------------------------------------------------------
 
-# History files
 .Rhistory
 .Rapp.history
-
-# Session Data files
 .RData
-
-# User-specific files
 .Ruserdata
-
-# Example code in package build process
+.Rproj.user/
+.Rcheck/
 *-Ex.R
-
-# Output files from R CMD build
 /*.tar.gz
 
-# RStudio files
-.Rproj.user/
-.Rproj.user/
-.Rproj.user/**
 
-# R package sources
-.Rcheck/
+# ------------------------------------------------------------
+# R Markdown / Jupyter
+# ------------------------------------------------------------
 
-# Produced vignettes
+*_cache/
+cache/
+*.utf8.md
+*.knit.md
+.ipynb_checkpoints/
+
 vignettes/*.html
 vignettes/*.pdf
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+
+# ------------------------------------------------------------
+# Authentication / deployment
+# ------------------------------------------------------------
+
 .httr-oauth
-
-# Knitr and R markdown default cache directories
-*_cache/
-cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# ShinyApp files
 rsconnect/
 
-# Ignore data files (if applicable)
-data/
 
-# Logs and temporary files
+# ------------------------------------------------------------
+# Study data
+#
+# Participant-level and derived datasets are intentionally
+# excluded from version control.
+# ------------------------------------------------------------
+
+# Ignore everything in data/ by default
+/data/
+
+# Allow documentation inside data/
+!data/README.md
+
+# Allow the Collection directory itself
+!data/Collection/
+
+# Ignore everything inside Collection by default
+data/Collection/*
+
+# Keep non-participant metadata required to understand
+# the original survey structure and preprocessing
+!data/Collection/codebook_mindspaceOne_2025-01-07.xlsx
+!data/Collection/value-codes_mindspaceOne_2025-01-07.csv
+!data/Collection/variables_mindspaceOne_2025-01-07.csv
+
+
+# ------------------------------------------------------------
+# Archived / temporary project files
+# ------------------------------------------------------------
+
+scr/Archived/
+
 logs/
 *.log
 *.tmp
 
-# Mac specific files
-.DS_Store
 
-# Other specific project directories
-.vscode
-
+# ------------------------------------------------------------
 # Environments
+# ------------------------------------------------------------
+
 .env
-.venv
+.venv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
+
+# ------------------------------------------------------------
+# IDE / editor files
+# ------------------------------------------------------------
+
+.vscode/
 .spyderproject
 .spyproject
-
-# Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
 
-# mypy
+# ------------------------------------------------------------
+# Documentation / tooling
+# ------------------------------------------------------------
+
+/site
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
-# Pyre type checker
 .pyre/
 
-# Other stuff
-.vscode
+
+# ------------------------------------------------------------
+# macOS
+# ------------------------------------------------------------
+
 .DS_Store
-.ipynb_checkpoints
-data/
-scr/Data Preprocessing.ipynb
-scr/archived
